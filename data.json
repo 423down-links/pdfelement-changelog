@@ -1,0 +1,406 @@
+{
+  "updated_at": "2026-09-12T11:02:29.911042+00:00",
+  "latest_version": "13.0.3",
+  "versions": [
+    {
+      "version": "13.0.3",
+      "date": "2026-09",
+      "title": "Wondershare PDFelement V13.0.3 is released!",
+      "sections": [
+        {
+          "title": "AI Knowledge Spaces",
+          "items": [
+            "Bring PDFs, slides, Word files, images, text, and YouTube links into one AI-powered Space.",
+            "Generate flashcards, quizzes, podcasts, mind maps, and reports from the same Space."
+          ]
+        },
+        {
+          "title": "Agreement Copilot",
+          "items": [
+            "AI Risk Review flags risky clauses, explains their impact, and links to the source text.",
+            "Agreement Compare highlights insertions, deletions, and modifications side by side."
+          ]
+        },
+        {
+          "title": "Faster PDF experience",
+          "items": [
+            "Open and render documents faster, with smooth handling even for large files.",
+            "Smoother interactions make browsing, editing, and reviewing easier."
+          ]
+        }
+      ],
+      "download_url": "http://download.wondershare.com/cbs_down/pdfelement-pro_13.0.3_full5239.exe",
+      "md5": "623afedf21f25db7b81c29432cb61cc5",
+      "size": 217538256,
+      "size_mb": 207.5
+    },
+    {
+      "version": "12.0.0",
+      "date": "2025-09-04",
+      "title": "PDFelement V12.0.0",
+      "sections": [
+        {
+          "title": "New & Improvement",
+          "items": [
+            "Revamped framework & UI - enjoy a refreshed, cleaner workspace. Pin your favorite tools to the top menu for faster access and a more personalized workflow.",
+            "Enhanced PDF tools - streamline your work with new capabilities, including annotation summaries, circular measurements, annotation library, page margin controls, and text-to-path editing.",
+            "Professional translation - a new translation mode with industry-specific accuracy across medicine, law, finance, design, academia, journalism, literature, and technology.",
+            "AI model switching (Chat with PDF) - choose between different large language models based on accuracy, style, or cost for a customized experience.",
+            "Smart redaction - AI-powered detection and batch redaction of sensitive data such as names, ID numbers, and bank account details for improved privacy and compliance.",
+            "Expanded batch processing - save time with new options like Batch Sign (digitally sign multiple PDFs at once) and Batch Crop (crop multiple files in a single step)."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "11.4.25",
+      "date": "2025-07-29",
+      "title": "PDFelement V11.4.25",
+      "sections": [
+        {
+          "title": "New",
+          "items": [
+            "AI-generated watermark compliance",
+            "Support setting permission to allow copy assistance capability",
+            "Support searching for 'overlapping seal' feature",
+            "Support searching for 'convert to curves' feature",
+            "Support converting to XML"
+          ]
+        },
+        {
+          "title": "Improvement",
+          "items": [
+            "Optimize scroll screenshot speed",
+            "Optimize popup message for OCR download failure"
+          ]
+        }
+      ]
+    },
+    {
+      "version": "11.4.23",
+      "date": "2025-06-27",
+      "title": "PDFelement V11.4.23",
+      "sections": [
+        {
+          "title": "New",
+          "items": [
+            "PDF translation adds Expert and Quick modes.",
+            "Login password error alert.",
+            "Image export now supports 200 DPI.",
+            "View background can filter out images.",
+            "Support for setting floating toolbar on text selection.",
+            "Expanded shortcut toolset."
+          ]
+        },
+        {
+          "title": "Improvement",
+          "items": [
+            "PDF polishing & PDF to Markdown & PDF translation features now support documents up to 260 pages.",
+            "Optimized screenshot border thickness indicator.",
+            "Improved placement of AI review prompt.",
+            "Cropped pages retain only the cropped area.",
+            "Faster document load after opening.",
+            "Adjusted whitespace in annotation sticky notes.",
+            "Enhanced save shortcut.",
+            "Bug fixes and performance improvements."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "11.4.22",
+      "date": "2025-06-20",
+      "title": "PDFelement V11.4.22",
+      "sections": [
+        {
+          "title": "New",
+          "items": [
+            "Merge documents: Option to include bookmarks/filenames in TOC",
+            "Customizable annotation colors",
+            "Transparent fill for custom stamps",
+            "Right-click stamps to edit/delete directly",
+            "Batch digital signatures across multiple pages",
+            "Create PDF from HEIC & CHM files",
+            "Signature appearance auto-adapts to field size",
+            "Auto-adjust display when dragging to screens with different resolutions",
+            "Disable AI features",
+            "Insert pages from clipboard to PDF",
+            "Smoother translation with higher character limits",
+            "Apply multiple backgrounds/watermarks/headers-footers at once",
+            "GIF playback support",
+            "Disable \"Recent Folders\" history",
+            "New \"Remove page gaps\" view mode",
+            "600 DPI OCR support",
+            "Customize floating toolbar with area highlight",
+            "Hold Shift to draw straight lines with pencil",
+            "Mouse wheel tab switching",
+            "Name top-level bookmarks when splitting",
+            "Batch add links to multiple pages"
+          ]
+        },
+        {
+          "title": "Improvement",
+          "items": [
+            "Faster loading for multi-page documents",
+            "Bug fixes & performance enhancements"
+          ]
+        }
+      ]
+    },
+    {
+      "version": "11.4.20",
+      "date": "2025-05-30",
+      "title": "PDFelement V11.4.20",
+      "sections": [
+        {
+          "title": "New",
+          "items": [
+            "Toggle line width visibility",
+            "Convert text to outlines",
+            "Merge multiple PDF pages onto a single page",
+            "Added mnemonics to primary menus",
+            "Add margin support",
+            "Draw bracket shapes",
+            "Auto-crop blank areas in crop tool",
+            "Display XY coordinates at mouse cursor"
+          ]
+        },
+        {
+          "title": "Improvement",
+          "items": [
+            "Enhanced OCR accuracy",
+            "Rotate pages to specific angles (deskew)",
+            "Set uniform page size when merging documents",
+            "Adjust font size in magnified translation areas",
+            "Numeric input for image rotation angles",
+            "Multi-select/all-select in annotations list",
+            "Name templates for watermarks/page numbers/backgrounds",
+            "Apply OCR selection areas across multiple pages",
+            "Retain only cropped content after cropping",
+            "Color picker for dynamic stamps",
+            "Fixed page size presets in crop window",
+            "Search by page number",
+            "Search bookmarks",
+            "Insert specific pages from PDFs",
+            "Set TOC page position in auto-generated table of contents",
+            "Resizable/full-screen crop window",
+            "Improved multi-page bookmark-to-TOC page numbering",
+            "Display total annotation count",
+            "Batch digital signature across multiple pages"
+          ]
+        }
+      ]
+    },
+    {
+      "version": "11.4.17",
+      "date": "2025-05-18",
+      "title": "PDFelement V11.4.17",
+      "sections": [
+        {
+          "title": "New",
+          "items": [
+            "Increased document limits for PDF full-text translation: Now supports up to 100MB and 150 pages.",
+            "Added support for seal across pages.",
+            "Added option to set zoom level for bookmarks.",
+            "EPUB to PDF creation now supported.",
+            "Export annotations only as PDF.",
+            "Insert multiple blank pages at once.",
+            "Batch save functionality added.",
+            "Spell check now covers sticky note content.",
+            "Customizable secondary menus.",
+            "First-line indent support.",
+            "Virtual printer for batch PDF creation from other formats.",
+            "Convert .MSG files to PDF.",
+            "Outlook add-in now preserves email metadata (subject, time, sender/recipient)."
+          ]
+        },
+        {
+          "title": "Improvement",
+          "items": [
+            "Improved loading speed for certain documents.",
+            "Fixed errors when uploading EPUB-converted PDFs to certain websites.",
+            "Other bug fixes and performance improvements."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "11.3.0",
+      "date": "2024-11-11",
+      "title": "PDFelement V11.3.0",
+      "sections": [
+        {
+          "title": "New",
+          "items": [
+            "Support page cross-merge",
+            "Support setting status of comments",
+            "Support customizing the preference of comments",
+            "Support for adding vertical text",
+            "Support talking with images (Powered by AI)"
+          ]
+        },
+        {
+          "title": "Improvement",
+          "items": [
+            "Optimize the user experience of adding form fields",
+            "Optimize the user experience of comments",
+            "Corrections and improvements in many small details.",
+            "Fix the crash issue that might occur in certain situations."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "11.1.0",
+      "date": "2024-09-14",
+      "title": "PDFelement V11.1.0",
+      "sections": [
+        {
+          "title": "New",
+          "items": [
+            "Chat with Multiple PDFs: AI-powered multi-document summarization and Q&A, boosting reading efficiency. Support to add other file formats like Word, Excel, Txt, and PPT as the chat knowledge base.",
+            "Knowledge Cards by AI: AI-powered knowledge cards for PDF overviews, key points, tags and relevant documents.",
+            "AI Grammar Check: AI-powered grammar-checking tool, significantly increases PDF accuracy.",
+            "Enhanced PDF capabilities: More powerful PDF solutions with support for JavaScript, split-view, read-aloud, add layer, sync stamps and handwriting signatures, and more.",
+            "Seamless cross-platform collaboration: Enhanced cross-platform collaboration for better sharing experience and capabilities. Support scanning QR codes to transfer PDFs to mobile quickly."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "11.0.0",
+      "date": "2024-08-01",
+      "title": "PDFelement V11.0.0",
+      "sections": [
+        {
+          "title": "New",
+          "items": [
+            "Chat with Multiple PDFs: AI-powered multi-document summarization and Q&A, significantly boosting reading efficiency.",
+            "Knowledge Cards by AI: AI-powered knowledge cards for PDF overviews, key points, tags and relevant documents.",
+            "AI Grammar Check: AI-powered grammar-checking tool, significantly increases PDF accuracy.",
+            "Enhanced PDF capabilities: More powerful PDF solutions with support for JavaScript, split-view, and more.",
+            "Seamless cross-platform collaboration: Enhanced cross-platform collaboration for better sharing experience and capabilities. Supports scanning QR code to transfer PDF to mobile quickly.",
+            "Personalized design software: Further customization is supported, enabling you to design your personalized software."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "10.0.0",
+      "date": "2023-08-17",
+      "title": "PDFelement V10.0.0",
+      "sections": [
+        {
+          "title": "New",
+          "items": [
+            "Introducing PDFelement V10 - Your Ultimate Smart PDF Solution Powered by AI!",
+            "Unleash the Power of AI for Your PDFs! Experience Personalized Assistance: Engage in tailored interactions with AI, receiving customized support and prompts that align with your unique preferences.",
+            "AI-Powered Document Expertise: Access AI's extensive knowledge to precisely address all your PDF-related inquiries. Seamlessly initiate and access sessions, effortlessly keeping track of your session history.",
+            "AI Touch-Up for Perfect PDFs: Attain document flawlessness effortlessly - proofread and receive valuable enhancement suggestions with a single click.",
+            "Global Translation Made Easy: Seamlessly translate your documents, enhancing readability for global audiences.",
+            "Immersive AI Reading Mode: Immerse yourself in AI-enabled reading experiences that elevate engagement to new heights. Streamlined AI Summarization: Enjoy a simplified and highly efficient process for content summarization.",
+            "Advanced Electronic Signatures: Request, track, and apply electronic signatures with ease across cloud, mobile, and desktop platforms.",
+            "Enhanced PDF Management: Swiftly access recent PDFs, simplifying organization within the recent folder.",
+            "Optimized Compression Efficiency: Maximize compression capabilities for a 10% enhancement in document compression efficiency.",
+            "Seamless Document Rendering: Experience enhanced document rendering for seamless and visually pleasing viewing.",
+            "Automated Bookmark Generation: Automatically detect and generate bookmarks, enabling effortless navigation.",
+            "Tailored Page Size Options: Provide support for specific page ranges, standardizing page sizes and offering quick preview effects.",
+            "Effortless Batch Operations: Reduce PDF file sizes and effortlessly create PDFs from diverse formats with enhanced ease.",
+            "A Cutting-Edge UI for a Modern Experience: Immerse yourself in a state-of-the-art UI design that redefines your visual interaction.",
+            "Unified Visual Design: The new product UI seamlessly functions on both Windows and Mac, ensuring consistent visuals across devices and reducing learning curves for multi-device users.",
+            "Adaptable Navigation Bar: Customize your reading area by collapsing the left-side navigation bar or pinning the right-side navigation bar according to your preference."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "9.5.0",
+      "date": "2023-03-31",
+      "title": "PDFelement V9.5.0",
+      "sections": [
+        {
+          "title": "New",
+          "items": [
+            "AI-powered support for summarizing PDF documents or paragraph content;",
+            "AI-powered support for proofreading paragraph content;",
+            "AI-powered support for rewriting paragraph content;",
+            "AI-powered support for explaining the meaning of paragraphs or words."
+          ]
+        },
+        {
+          "title": "Improvement",
+          "items": [
+            "Optimize product purchase experience;",
+            "Optimize the saving experience;",
+            "Corrections and improvements in many small details;",
+            "Fix the crash issue that might happen in certain situations."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "9.0.0",
+      "date": "2022-07-14",
+      "title": "PDFelement V9.0.0",
+      "sections": [
+        {
+          "title": "New",
+          "items": [
+            "Visual Upgrade: a new user interface helps you to enjoy a larger reading space, a more immersive reading experience, and more convenient view settings.",
+            "Optimize the navigation bar to be more user-friendly.",
+            "Performance enhancement: a 45%+ faster-rendering speed while opening PDF compared to the old version.",
+            "More advanced features."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "8.0.0",
+      "date": "2020-11-28",
+      "title": "PDFelement V8.0.0",
+      "sections": [
+        {
+          "title": "New",
+          "items": [
+            "Adopt new information framework, interaction design and UI vision;",
+            "Added cloud storage function and electronic signature access."
+          ]
+        },
+        {
+          "title": "Improvement",
+          "items": [
+            "Improve software startup speed and document opening speed."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "7.0.0",
+      "date": "2019-05-28",
+      "title": "PDFelement V7.0.0",
+      "sections": [
+        {
+          "title": "New",
+          "items": [
+            "New UI - Redesigned UI and icons to reflect the simple and powerful experiences of PDFelement.",
+            "Wondershare ID - Get the flexibility to provision, track, and manage to license across groups and teams;",
+            "AutoSave - Save your file automatically, every few seconds, as you work;",
+            "Cloud Connection - Open PDF document from cloud storage directly;",
+            "Import and Export Comments - Import comments from existing PDFs or export them to share with others;",
+            "Tab Rename - Added option to assign a user-friendly name to any selected tab."
+          ]
+        },
+        {
+          "title": "Improvement",
+          "items": [
+            "Optimized Reading Mode - Maximize your screen for the optimal reading of PDF files with the new UI;",
+            "Improved Speed - Open large documents faster with an improved rendering and processing technology;",
+            "Shortcut Keys - Added support for new keyboard shortcuts to perform common actions quickly;",
+            "Quick Add - Drag and drop PDF document into an open document;",
+            "Other feature enhancements, improved stability, and bug fixes included."
+          ]
+        }
+      ]
+    }
+  ]
+}
