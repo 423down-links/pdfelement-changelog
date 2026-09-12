@@ -35,6 +35,55 @@
       "size_mb": 207.5
     },
     {
+      "version": "13.0.2",
+      "date": "2026-09-10",
+      "title": "PDFelement V13.0.2",
+      "sections": [
+        {
+          "title": "Maintenance Release",
+          "items": [
+            "Bug fixes and stability improvements.",
+            "Performance optimizations for AI Spaces and Agreement Copilot.",
+            "General reliability enhancements."
+          ]
+        }
+      ],
+      "download_url": "http://download.wondershare.com/cbs_down/pdfelement-pro_13.0.2_full5239.exe",
+      "md5": "693c139bdf3329620c46a35fd25e452e",
+      "size": 217531904,
+      "size_mb": 207.5
+    },
+    {
+      "version": "13.0.0",
+      "date": "2026-09-03",
+      "title": "Wondershare PDFelement V13 is released!",
+      "sections": [
+        {
+          "title": "AI Spaces",
+          "items": [
+            "Bring PDFs, slides, Word files, images, text, and YouTube links into one AI-powered Space.",
+            "Ask questions across your files and jump back to cited sources in the original.",
+            "Generate flashcards, quizzes, podcasts, mind maps, and reports from the same Space."
+          ]
+        },
+        {
+          "title": "Agreement Copilot",
+          "items": [
+            "AI Risk Review flags risky clauses, explains why they matter, and links each finding to the original.",
+            "Agreement Compare shows two versions side by side, with additions, deletions, and changes highlighted.",
+            "Side-by-side Translation keeps original and translated clauses aligned, without losing structure."
+          ]
+        },
+        {
+          "title": "Faster PDF performance",
+          "items": [
+            "Open and render documents faster, even large files.",
+            "Smoother interactions make browsing, editing, and reviewing feel lighter."
+          ]
+        }
+      ]
+    },
+    {
       "version": "12.0.0",
       "date": "2025-09-04",
       "title": "PDFelement V12.0.0",
