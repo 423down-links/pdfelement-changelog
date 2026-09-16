@@ -202,36 +202,52 @@ def probe_latest_version():
 
 
 def fetch_changelog_from_web(version):
-    """Try to fetch changelog content from official website or known sources.
+    """Try to fetch changelog content from official website.
     Returns list of update items or empty list.
+    页面结构: 版本号在<h2>中，内容含<h4>分类和<ul><li>条目
+    小版本(13.0.4)无单独日志时，回退到大版本(13.0.0)日志
     """
-    # Try Wondershare whats-new page
     urls = [
-        f"https://pdf.wondershare.com/whats-new.html",
-        f"https://pdf.wondershare.com/support/whats-new-pdfelement.html",
+        "https://pdf.wondershare.com/whats-new.html",
+        "https://pdf.wondershare.cn/whats-new.html",
     ]
-    
+
+    # 生成要尝试的版本列表：精确版本 → 大版本(13.0.0)
+    parts = version.split('.')
+    versions_to_try = [version]
+    if len(parts) >= 3 and parts[2] != '0':
+        major_version = f"{parts[0]}.{parts[1]}.0"
+        if major_version not in versions_to_try:
+            versions_to_try.append(major_version)
+
     for url in urls:
         try:
             req = urllib.request.Request(url, headers={'User-Agent': UA})
-            with urllib.request.urlopen(req, timeout=15) as resp:
+            with urllib.request.urlopen(req, timeout=20) as resp:
                 html = resp.read().decode('utf-8', errors='ignore')
-                # Look for version section
-                version_pattern = version.replace('.', r'\.')
-                # Find content after version heading
-                pattern = rf'{version_pattern}[^<]*</?h[23][^>]*>(.*?)(?:<h[23]|$)'
-                m = re.search(pattern, html, re.S | re.I)
-                if m:
-                    content = m.group(1)
-                    items = re.findall(r'<li[^>]*>(.*?)</li>', content, re.S)
-                    items = [re.sub(r'<[^>]+>', '', i).strip() for i in items if i.strip()]
-                    if items:
-                        print(f"  Found {len(items)} changelog items from {url}")
-                        return items
+
+                for ver in versions_to_try:
+                    ver_pattern = ver.replace('.', r'\.')
+                    # 匹配版本号在h2/h3标签内: 13.0.0</h2> 或 <h2>...13.0.0...</h2>
+                    # 捕获到下一个h2/h3之前的内容
+                    pattern = rf'{ver_pattern}\s*</h[23]>(.*?)(?=<h[23]|$)'
+                    m = re.search(pattern, html, re.DOTALL | re.I)
+                    if not m:
+                        # 尝试另一种结构: <h2...>版本号</h2>
+                        pattern2 = rf'<h[23][^>]*>\s*{ver_pattern}\s*</h[23]>(.*?)(?=<h[23]|$)'
+                        m = re.search(pattern2, html, re.DOTALL | re.I)
+                    if m:
+                        content = m.group(1)
+                        items = re.findall(r'<li[^>]*>(.*?)</li>', content, re.DOTALL)
+                        items = [re.sub(r'<[^>]+>', '', i).strip() for i in items if i.strip()]
+                        if items:
+                            label = f" (from {ver})" if ver != version else ""
+                            print(f"  Found {len(items)} changelog items from {url}{label}")
+                            return items
         except Exception as e:
             print(f"  Changelog fetch from {url} failed: {e}")
             continue
-    
+
     return []
 
 
@@ -340,13 +356,38 @@ def main():
                     if new_entry.get('md5') and not v.get('md5'):
                         versions[i]['md5'] = new_entry['md5']
                         print(f"  Updated MD5 for {new_entry['version']}")
-                    # Update sections if existing is empty
-                    if new_entry.get('sections') and not v.get('sections'):
-                        versions[i]['sections'] = new_entry['sections']
+                    # Update sections if existing is empty or contains placeholder
+                    if new_entry.get('sections'):
+                        existing_items = []
+                        if v.get('sections'):
+                            for s in v['sections']:
+                                existing_items.extend(s.get('items', []))
+                        has_placeholder = any('Version update detected via download URL probe' in str(i) for i in existing_items)
+                        if not v.get('sections') or has_placeholder:
+                            versions[i]['sections'] = new_entry['sections']
+                            print(f"  Updated changelog for {new_entry['version']}")
                     # Update date if existing is empty
                     if new_entry.get('date') and not v.get('date'):
                         versions[i]['date'] = new_entry['date']
                     break
+
+    # 修复步骤：扫描所有版本，对占位日志重新抓取真实更新日志
+    print("  [Repair] Scanning for placeholder changelogs...")
+    repaired = 0
+    for i, v in enumerate(versions):
+        existing_items = []
+        if v.get('sections'):
+            for s in v['sections']:
+                existing_items.extend(s.get('items', []))
+        has_placeholder = any('Version update detected via download URL probe' in str(item) for item in existing_items)
+        if has_placeholder or not v.get('sections'):
+            changelog_items = fetch_changelog_from_web(v['version'])
+            if changelog_items:
+                versions[i]['sections'] = [{'title': 'Updates', 'items': changelog_items}]
+                repaired += 1
+                print(f"  ✅ Repaired changelog for {v['version']} ({len(changelog_items)} items)")
+    if repaired > 0:
+        print(f"  Repaired {repaired} version(s) with real changelog")
     else:
         print("  Could not fetch latest version, preserving existing data")
 
