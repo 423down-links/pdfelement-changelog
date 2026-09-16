@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T15:29:18.686826+00:00",
+  "updated_at": "2026-09-16T15:46:34.058053+00:00",
   "latest_version": "13.0.5",
   "versions": [
     {
@@ -10,7 +10,14 @@
         {
           "title": "Updates",
           "items": [
-            "Version update detected via download URL probe."
+            "Bring PDFs, slides, Word files, images, text, and YouTube links into one AI-powered Space.",
+            "Ask questions across your files and jump back to cited sources in the original.",
+            "Generate flashcards, quizzes, podcasts, mind maps, and reports from the same Space.",
+            "AI Risk Review flags risky clauses, explains why they matter, and links each finding to the original.",
+            "Agreement Compare shows two versions side by side, with additions, deletions, and changes highlighted.",
+            "Side-by-side Translation keeps original and translated clauses aligned, without losing structure.Faster PDF experience: Everyday PDF work feels quicker, from opening a file to finishing your edits.",
+            "Open and render documents faster, even large files.",
+            "Smoother interactions make browsing, editing, and reviewing feel lighter."
           ]
         }
       ],
@@ -27,7 +34,14 @@
         {
           "title": "Updates",
           "items": [
-            "Version update detected via download URL probe."
+            "Bring PDFs, slides, Word files, images, text, and YouTube links into one AI-powered Space.",
+            "Ask questions across your files and jump back to cited sources in the original.",
+            "Generate flashcards, quizzes, podcasts, mind maps, and reports from the same Space.",
+            "AI Risk Review flags risky clauses, explains why they matter, and links each finding to the original.",
+            "Agreement Compare shows two versions side by side, with additions, deletions, and changes highlighted.",
+            "Side-by-side Translation keeps original and translated clauses aligned, without losing structure.Faster PDF experience: Everyday PDF work feels quicker, from opening a file to finishing your edits.",
+            "Open and render documents faster, even large files.",
+            "Smoother interactions make browsing, editing, and reviewing feel lighter."
           ]
         }
       ],
