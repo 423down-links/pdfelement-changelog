@@ -25,7 +25,7 @@ jobs:
         run: |
           output=$(python generate_data.py)
           echo "$output"
-          if echo "$output" | grep -qE "New version added|Repaired [1-9]"; then
+          if echo "$output" | grep -qE "New version added|Info updated for|Repaired [1-9]"; then
             echo "changed=true" >> $GITHUB_OUTPUT
             echo "✅ 检测到版本变化或日志修复，将推送前端"
           else

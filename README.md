@@ -9,7 +9,7 @@ Complete version history and update notes for Wondershare PDFelement.
 - Sidebar version navigation grouped by year
 - Download links, MD5, and file size for the latest version
 - All content in English
-- GitHub Actions auto-updates daily
+- GitHub Actions auto-updates every 3 hours
 
 ## Access
 
@@ -18,8 +18,10 @@ https://423down.github.io/pdfelement-changelog/
 ## API Details
 
 - Endpoint: `https://pc-api.wondershare.cc/v2/product/check-upgrade`
-- Parameters: `pid` (product ID), `client_sign={}` (empty braces work), `version`, `platform=win_x86`
+- Parameters: `pid=5239`, `client_sign={}` (empty braces), `version`, `platform=win_x86`
 - English version PID: 5239
+- The API returns the newest release strictly newer than `version`; querying with the
+  previous version yields the accurate release notes for the newest build.
 
 ## Files
 
@@ -27,11 +29,11 @@ https://423down.github.io/pdfelement-changelog/
 - `data.json` - Version history data (latest + historical)
 - `generate_data.py` - Generates data.json (latest from API + history from official page)
 - `embed_data.py` - Embeds data.json into index.html
-- `.github/workflows/update.yml` - Daily auto-update workflow
+- `.github/workflows/update.yml` - Auto-update workflow (every 3 hours)
 
 ## Version Coverage
 
-- **13.x**: 13.0.3 (latest)
+- **13.x**: 13.0.7 (latest), 13.0.6, 13.0.5, 13.0.4, 13.0.3, 13.0.2, 13.0.0
 - **12.x**: 12.0.0
 - **11.x**: 11.4.25, 11.4.23, 11.4.22, 11.4.20, 11.4.17, 11.3.0, 11.1.0, 11.0.0
 - **10.x**: 10.0.0
