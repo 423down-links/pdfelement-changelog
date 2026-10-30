@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-10-10T01:00:38.353116+00:00",
-  "latest_version": "13.0.7",
+  "updated_at": "2026-10-30T09:49:21.352164+00:00",
+  "latest_version": "13.0.10",
   "versions": [
+    {
+      "version": "13.0.10",
+      "date": "2026-10-30",
+      "title": "Wondershare PDFelement V13.0.10 is released!",
+      "sections": [
+        {
+          "title": "Updates",
+          "items": [
+            "AI Spaces now supports Infographic generation. · Generate key information summaries from documents in a Knowledge Space around a specified topic. · Choose from Portrait, Landscape, and Square formats to meet different presentation and sharing needs. · Select from six visual styles—Professional, Sketch, Editorial, Clay, Watercolor, and Origami—to better match your content and aesthetic preferences. Mind maps now support full-screen viewing, making it easier to browse content and view details. Fixed some known issues and improved user experience."
+          ]
+        }
+      ],
+      "download_url": "https://download.wondershare.com/cbs_down/pdfelement-pro_13.0.10_full5239.exe",
+      "md5": "a814707d51eb6f96f7963559e7932d88",
+      "size": 218432624,
+      "size_mb": 208.3
+    },
     {
       "version": "13.0.7",
       "date": "2026-10-09",
