@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-10-30T09:49:21.352164+00:00",
-  "latest_version": "13.0.10",
+  "updated_at": "2026-11-06T06:02:26.249956+00:00",
+  "latest_version": "13.0.11",
   "versions": [
+    {
+      "version": "13.0.11",
+      "date": "2026-11-06",
+      "title": "Wondershare PDFelement V13.0.11 is released!",
+      "sections": [
+        {
+          "title": "Updates",
+          "items": [
+            "Fixed some known issues and improved user experience."
+          ]
+        }
+      ],
+      "download_url": "https://download.wondershare.com/cbs_down/pdfelement-pro_13.0.11_full5239.exe",
+      "md5": "3e94360532987d9b7b5db44756ca1169",
+      "size": 218438872,
+      "size_mb": 208.3
+    },
     {
       "version": "13.0.10",
       "date": "2026-10-30",
